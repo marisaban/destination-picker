@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 300;
+}
+p, span, label {
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+}
+#header-title {
+	font-size: 3rem;
+	color: white;
+}
+#subheader-title {
+	color: white;
+}
+.text-center {
+	text-align: center;
+}
+.double-margin-top {
+	margin-top: 55px;
+}
+
+/* background-image */
+.travel-img {
+	background-image: url(../img/travel.jpg);
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 250px;
+}
+/* text input */
+#tags {
+	margin-top: 25px;
+	width: 40%;
+}
+/* button */
+input.mybutton {
+	display: inline-block;
+	font-family: 'Julius Sans One', sans-serif;
+	letter-spacing: -0.01em;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	vertical-align: middle;
+	text-decoration: none;
+	outline: none;
+}
+input.mybutton {
+	background-color: #1a421c;
+	padding: 5px 12px;
+	color: white;
+	font-size: 14px;
+}
